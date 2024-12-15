@@ -24,6 +24,7 @@ function ToDoapp() {
                 </div>
           
                 <p>{value}</p>
+                <p>{task}</p>
             </div>
           
         </div>
