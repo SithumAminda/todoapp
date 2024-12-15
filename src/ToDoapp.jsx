@@ -20,9 +20,10 @@ function ToDoapp() {
                 <div className="input-section">
                 <input type="text"  className="input" onChange={handleChange} placeholder='Enter your task' value={value} />
                 <button>ADD</button>
+               
                 </div>
           
-          
+                <p>{value}</p>
             </div>
           
         </div>
